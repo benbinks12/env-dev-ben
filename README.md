@@ -20,3 +20,7 @@ Environnement de développement de diaby ben – B1 DEV, IFRAN.
 | Processeurs | 12                 |
 | Mémoire     | 7,7 Go             |
 | Utilisateur | ben                |
+
+## Historique
+
+Ce dossier est suivi avec Git depuis le sous-module 2.
