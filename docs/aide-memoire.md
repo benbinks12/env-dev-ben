@@ -13,4 +13,10 @@
 | cp       | copier un fichier | `cp a.txt b.txt` |
 | git      | binks             | la rv            |
 
-## Lire et chercher
+## gestion des paquets
+
+## branches
+
+| Commande | Ce qu'elle fait   | exemple          |
+| -------- | ----------------- | ---------------- |
+| cp       | copier un fichier | `cp a.txt b.txt` |
