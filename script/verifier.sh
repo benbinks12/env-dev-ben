@@ -1,7 +1,15 @@
 #!/bin/bash
-
+echo "=== Vérification du poste de Diaby Ben ==="
+echo
+echo "Ubuntu :"
+lsb_release -d
+echo "Git :"
 git --version
-tree --version
-nano --version
+echo "Node.js :"
 node --version
-htop --version
+echo "npm :"
+npm --version
+echo "tree :"
+tree --version
+echo
+echo "=== Fin de la vérification ==="
