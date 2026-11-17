@@ -1,7 +1,21 @@
 # Journal des choix
 
-## 2026-11-11 -installation de tree rm nodesource_setup.sh
+## 2026-11-14 - Installation de Node.js
 
-## 2026-11-13 - Hébergement du dépôt : GitHub
+- **Décision :** installer Node.js avec le dépôt NodeSource et apt.
+- **Autres possibilités :** le paquet nodejs d'Ubuntu, le site nodejs.org.
+- **Raison :** NodeSource donne la version LTS récente, et les commandes ... dans mon README pour être refaites à l'identique.
 
-- **decision :** publier notre depot distant github
+## 2026-11-14 - Système pour le terminal
+
+- **Décision :** utiliser le terminal Linux (Bash).
+
+- **Autres possibilités :** Zsh, Fish ou PowerShell.
+
+- **Raison :** Bash est installé par défaut sur de nombreuses distributions Linux. Il permet d'exécuter les commandes nécessaires pour gérer les fichiers, installer des logiciels et travailler avec Git et Node.js.
+
+## 2026-11-11 - Installation de tree
+
+## 2026-11-13 - hébergement du dépôt : Github
+
+- **Décision :**
