@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
-
-sudo apt install node
-sudo apt install htop
-sudo apt install npm
-sudo apt install nano
-sudo apt install git
-sudo apt install trees
+#!/bin/bash
+echo "=== Installation des outils dans Ubuntu ==="
+sudo apt update
+sudo apt install -y git tree htop nano
+curl -fsSL https://deb.nodesource.com/setup_lts.x -o /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
+sudo apt install -y nodejs
+echo "=== Installation terminée ==="
