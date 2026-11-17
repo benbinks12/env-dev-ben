@@ -1,4 +1,4 @@
- # env-dev-ben (B1 DEV, IFRAN)
+ # env-dev-ben (B1 DEV, IFRAN) - mon Environnement de développement
 
 Environnement de développement de diaby ben – B1 DEV, IFRAN.
 
@@ -46,7 +46,7 @@ Ce dossier est suivi avec Git depuis le sous-module
 
 ### 2. Installer les outils dans Ubuntu
 
-1. Ouvrir Ubuntu et aller dans le dossier du projet : `cd ~/env-dev-kone`
+1. Ouvrir Ubuntu et aller dans le dossier du projet : `cd ~/env-dev-ben`
 2. Lancer le script d'installation : `./scripts/installer.sh`
 
 ## Vérification
@@ -63,3 +63,42 @@ Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
 | `docs/aide-memoire.md` | regroupe les commandes de Linux                               |
 | `scripts/installer.sh` | Automatise l'installation des outils nécessaires du projet    |
 | `scripts/verifier.sh`  | Vérifie que les outils sont installés et affiche leur version |
+
+## Installation
+
+### 1. Installer Ubuntu et VS Code
+
+- **Windows :** ouvrir le Terminal en administrateur, taper `wsl --install`, redémarrer l'ordinateur, puis configurer Ubuntu.
+- Installer VS Code depuis https://code.visualstudio.com
+
+### 2. Installer les outils dans Ubuntu
+
+1. Ouvrir Ubuntu.
+2. Aller dans le dossier du projet : `cd ~/dev/env-dev-ben`
+3. Lancer le script d'installation : `./script/installer.sh`
+
+## Vérification
+
+Pour vérifier que les outils sont correctement installés, lancer :
+
+`./script/verifier.sh`
+
+Résultat attendu :
+
+- Ubuntu affiche sa version.
+- Git affiche sa version.
+- Node.js affiche sa version.
+- npm affiche sa version.
+- tree affiche sa version.
+
+## Contenu du dossier
+
+| Fichier ou dossier     | Rôle                                 |
+| :--------------------- | :----------------------------------- |
+| `README.md`            | Documentation du projet              |
+| `JOURNAL.md`           | Journal de mes choix                 |
+| `docs/`                | Dossier contenant les documents      |
+| `docs/aide-memoire.md` | Aide-mémoire des commandes Linux     |
+| `script/`              | Dossier contenant les scripts        |
+| `script/installer.sh`  | Installation des outils dans Ubuntu  |
+| `script/verifier.sh`   | Vérification des versions des outils |
