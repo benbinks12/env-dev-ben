@@ -20,3 +20,7 @@
 | Commande | Ce qu'elle fait   | exemple          |
 | -------- | ----------------- | ---------------- |
 | cp       | copier un fichier | `cp a.txt b.txt` |
+
+## Astuce de ben
+
+`git log --oneline --graph` dessine l'historique avec les branches.
